@@ -4,6 +4,10 @@ const useragent = require('express-useragent');
 const app = express();
 app.use(useragent.express());
 
+app.get('/', (req, res) => {
+    res.send('Hello Redirect King!');
+});
+
 app.get('/ig', (req, res) => {
     console.log(req.useragent);
     if (req.useragent.isAndroid) {
