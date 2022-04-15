@@ -1,0 +1,20 @@
+{
+  "name": "urlking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "urlking"
+  },
+  "author": "Yuval Ron",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-useragent": "^1.0.15"
+  }
+}
